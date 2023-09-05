@@ -155,7 +155,7 @@ function App() {
         </div>
       </div>
       <div className="cards">
-        {data.length !== 0 ? (
+        {data.length > 10 ? (
           data.map((d) =>
             (bodyPart === "all" || d.bodyPart === bodyPart) &&
             (target === "all" || d.target === target) &&

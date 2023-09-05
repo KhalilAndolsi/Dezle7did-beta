@@ -180,7 +180,7 @@ function App() {
             ) : undefined
           )
         ) : (
-          <h1 className="">No Data</h1>
+          <h1 className="text-center font-semibold">Loading...</h1>
         )}
       </div>
       <button  

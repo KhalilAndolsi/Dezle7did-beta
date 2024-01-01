@@ -175,7 +175,7 @@ function App() {
                   <b>Equipment: </b>
                   {d.equipment}
                 </h1>
-                <img src={d.gifUrl} alt="test" />
+                <img src={d.gifUrl} loading="lazy" alt="test" />
               </div>
             ) : undefined
           )
